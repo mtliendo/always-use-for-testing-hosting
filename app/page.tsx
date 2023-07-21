@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 export default function Home() {
-	const hello = process.env.HELLO
+	const hello = process.env.NEXT_PUBLIC_HELLO
 	console.log('THE LOG STATEMENT', hello)
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-between p-24">
